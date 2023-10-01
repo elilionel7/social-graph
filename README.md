@@ -1,26 +1,17 @@
-# Social Graph Practice Part 1
+# Social Graph Project
 
+In this practice, I implement a social network utilizing an adjacency list. The network is based on a "follow" system, akin to platforms like Twitter or Instagram.
+
+ Develop the `SocialNetwork` class, with functionalities to add users, establish following relationships, list a user's followers and those they are following, and suggest followers.
+
+The goal of my project is to adeptly build a social network using adjacency lists. This focused approach allows me to reinforce my grasp on these concepts, ensuring their effective application in my future work. While the network's structure is non-OOP, I seamlessly integrate OOP principles for other project components, balancing innovation with familiarity in my development journey.
 In this practice, you will implement a social network using an adjacency list.
 This network will be "follow" based, similar to Twitter or Instagram.
 
-Your task is to implement the `SocialNetwork` class with the ability to add
-users, follow users, list a user's followers and those they are following,
-and recommend followers.
-
-_Note: As you work through this practice, recall the new information we learned
-about adjacency lists and apply that to your strategies and solutions rather
-than taking an OOP approach. This will help you cement these new concepts into
-your knowledge base for practices and projects moving forward._  You will still
-be using OOP to build other parts of this project, just not the graph itself.
-
 ## Directions
 
-1. Clone the project from the [starter]
-2. Install packages with `npm install`
-3. Read the directions and test specs to understand the problem
-4. Run tests with `npm test`
-5. Implement code until tests are all passing
-
+1. Run tests with `npm test`
+2. Implement code until tests are all passing
 
 ## Part 1: Social Network Setup
 
@@ -100,6 +91,9 @@ Example:
 socialNetwork.getFollowers(1); // Set {}
 socialNetwork.getFollowers(2); // Set { 1 }
 ```
+
+## Part 2: Recommended Follows
+
 Implement `getRecommendedFollows` which takes in a userID and an integer,
 degrees. This function returns an array containing a list of recommended
 users to follow.
@@ -125,6 +119,4 @@ socialNetwork.getRecommendedFollows(1, 3); // [3, 4, 5, 6]
 ```
 
 
-
-
-[starter]: https://github.com/appacademy/practice-for-week-06-social-graph-practice
+## Note:I did this  Project while in App Academy
